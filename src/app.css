@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+
+#app {
+  font-family: "Fira Sans", sans-serif;
+  text-align: center;
+}
+
+#header {
+  padding: 20px;
+  /* text-transform:uppercase; */
+}
+#header #links a {
+  margin: 0 10px;
+  padding: 10px;
+  color: green;
+}
+
+#header #links a:hover {
+  font-weight: bold;
+  background: #eee;
+}
+#step {
+  font-size: 40px;
+  padding: 30px;
+  border: 1px #ddd solid;
+  height: 145px;
+}
+
+.fadein-0 {
+  animation: fadein-0 2s;
+}
+
+.fadein-1 {
+  animation: fadein-1 2s;
+}
+
+.fadein-2 {
+  animation: fadein-2 2s;
+}
+
+@keyframes fadein-0 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein-1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein-2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#basic-navigation {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+#progress-bar {
+  margin: 0 auto;
+  max-width: 480px;
+  margin-top: 30px;
+}
+
+#steps-navigation {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+h5 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  color: #666;
+}
+
+h8 {
+  font-size:12px;
+  margin-top:0px;
+}
+#step-navigation {
+  margin-top: 30px;
+}
+
+button {
+  min-width: 120px;
+  text-transform: uppercase;
+}
+
+input.answer {
+  width: 70px;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  margin-left: 10px;
+  text-align: center;
+}
+
+input.answer:focus {
+  outline: none;
+  border-bottom-color: blue;
+}
+
+#msg {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px;
+  height: 0;
+}
+
+#msg.error {
+  color: red;
+}
+#msg.success {
+  color: green;
+}
